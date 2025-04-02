@@ -3,9 +3,6 @@ The MP4 to GIF Converter is a web application that accepts `.mp4` files and conv
 
 This web application is meant to be run locally. Changes may be required if you wish to run this in a production environment.
 
-## Why Build This?
-This was built as I could not find an easy solution to record and save GIFs on Windows.
-
 ## Deployment
 To deploy this, run the following commands:
 
