@@ -34,7 +34,7 @@ This was made because I needed a simple way to convert MP4 files to GIFs without
 ### How do I know you are not collecting my data?
 As this is open-source, you are free to audit the source code of the web application. You are free to run this locally by following the steps in the deployment section if you are concerned about your privacy.
 
-### Why not record and use tools such as Microsoft Clipchamp to export the `.mp4` files to `.gif`.
+### Why not record and use tools such as Clipchamp to export the `.mp4` files to `.gif`.
 It is possible to do it this way. However, there are potentially quality issues depending on the software.
 
 ### Why did you use AI to create this?
