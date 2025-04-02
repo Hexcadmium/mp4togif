@@ -7,10 +7,10 @@ This web application is meant to be run locally. Changes may be required if you 
 This was built as I could not find an easy solution to record and save GIFs on Windows.
 
 ## Deployment
-To deploy this, simply `git clone` this project and run `npm start`:
+To deploy this, run the following commands:
 
 ```
-git clone
+git clone https://github.com/Hexcadmium/mp4togif.git
 cd mp4togif
 npm install
 npm start
