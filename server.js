@@ -75,7 +75,7 @@ function convertMp4ToGif(inputPath, outputPath) {
         // Step 1: Generate the palette
         ffmpeg(inputPath)
             .outputOptions([
-                '-vf', 'fps=10,scale=480:-1:flags=lanczos,palettegen'
+                '-vf', 'fps=15,scale=1080:-1:flags=lanczos,palettegen'
             ])
             .output(palettePath)
             .on('start', commandLine => {
@@ -94,7 +94,7 @@ function convertMp4ToGif(inputPath, outputPath) {
                 ffmpeg(inputPath)
                     .input(palettePath)
                     .complexFilter([
-                        'fps=10,scale=480:-1:flags=lanczos[x];[x][1:v]paletteuse'
+                        'fps=15,scale=720:-1:flags=lanczos[x];[x][1:v]paletteuse'
                     ])
                     .output(outputPath)
                     .on('start', commandLine => {

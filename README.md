@@ -10,6 +10,7 @@ This was built as I could not find an easy solution to record and save GIFs on W
 To deploy this, run the following commands:
 
 ```
+sudo apt install ffmpeg npm
 git clone https://github.com/Hexcadmium/mp4togif.git
 cd mp4togif
 npm install
