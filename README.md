@@ -16,6 +16,8 @@ npm install
 npm start
 ```
 
+The web application can be accessed via `http://localhost:3000`.
+
 ## Disclaimer
 By running any configuration, script, or any other material in this repository, you understand that all actions taken by you, the user, are your sole responsibility.
 
