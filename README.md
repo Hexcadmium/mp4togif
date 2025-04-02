@@ -1,4 +1,4 @@
-# MP4 to GIF Converter - Project 1: mp4togif
+# MP4 to GIF Converter
 The MP4 to GIF Converter is a web application that accepts `.mp4` files and converts it to `.gif` files made with the help of Microsoft Copilot.
 
 This web application is meant to be run locally. Changes may be required if you wish to run this in a production environment.
