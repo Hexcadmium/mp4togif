@@ -26,10 +26,10 @@ Email [connect@gohspace.com](mailto:connect@gohspace.com?subject=MP4%20to%20GIF%
 Frequently Asked Questions
 
 ### Why not use already built converters?
-You can! There are many converters available. However, some of them may contain malware or not produce the quality you want.
+You can! There are many converters available. However, some of them may contain malware or does not produce the quality you want.
 
 ### Why did you make this?
-This was made because I needed a simple way to convert MP4 files to GIFs without using sketchy software or online converters.
+This was made because I needed a simple way to convert MP4 files to GIFs without using potentially sketchy software or online converters.
 
 ### How do I know you are not collecting my data?
 As this is open-source, you are free to audit the source code of the web application. You are free to run this locally by following the steps in the deployment section if you are concerned about your privacy.
