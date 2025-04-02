@@ -16,6 +16,9 @@ npm install
 npm start
 ```
 
+## Disclaimer
+By running any configuration, script, or any other material in this repository, you understand that all actions taken by you, the user, are your sole responsibility.
+
 ## Contact
 Email [connect@gohspace.com](mailto:connect@gohspace.com?subject=MP4%20to%20GIF%20Converter) if you have any questions, concerns, or issues.
 
