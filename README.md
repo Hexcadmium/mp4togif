@@ -30,7 +30,7 @@ You can! There are many converters available. However, some of them may contain 
 ### Why did you make this?
 This was made because I needed a simple way to convert MP4 files to GIFs without using potentially sketchy software or online converters.
 
-### How do I know you are not collecting my data?
+### How do I know that you are not collecting my data?
 As this is open-source, you are free to audit the source code of the web application. You are free to run this locally by following the steps in the deployment section if you are concerned about your privacy.
 
 ### Why not record and use tools such as Clipchamp to export `.mp4` to `.gif`?
