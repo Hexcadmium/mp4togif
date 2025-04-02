@@ -1,0 +1,14 @@
+{
+    "name": "mp4-to-gif-converter",
+    "version": "1.0.0",
+    "description": "A web application to convert MP4 videos to GIFs.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "5.1.0",
+        "multer": "1.4.5-lts.2",
+        "fluent-ffmpeg": "2.1.3"
+    }
+}

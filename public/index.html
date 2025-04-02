@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensure the page scales correctly on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP4 to GIF Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MP4 to GIF Converter</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="videoInput" name="video" accept="video/mp4" required><br><br>
+            <button type="submit">Convert</button>
+        </form>
+        <br><br>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Existing script to handle form submission and conversion
+        const form = document.getElementById('uploadForm');
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            const videoFile = document.getElementById('videoInput').files[0];
+            formData.append('video', videoFile);
+
+            document.getElementById('result').innerHTML = "Converting... please wait.";
+
+            try {
+                const response = await fetch('/convert', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error("Conversion failed");
+                }
+
+                const data = await response.json();
+                // Display the resulting GIF
+                document.getElementById('result').innerHTML = `<h2>Your GIF:</h2>
+          <img src="${data.gifUrl}" alt="Converted GIF" />`;
+            } catch (error) {
+                document.getElementById('result').innerHTML = "Error: " + error.message;
+            }
+        });
+    </script>
+</body>
+
+</html>
