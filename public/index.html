@@ -10,10 +10,17 @@
 </head>
 
 <body>
+    <header class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="https://github.com/Hexcadmium/mp4togif">View on GitHub</a></li>
+        </ul>
+    </header>
     <div class="container">
         <h1>MP4 to GIF Converter</h1>
+        <br>
         <form id="uploadForm" enctype="multipart/form-data">
-            <input type="file" id="videoInput" name="video" accept="video/mp4" required><br><br>
+            <input class="input-style" type="file" id="videoInput" name="video" accept="video/mp4" required>
+            <br><br><br>
             <button type="submit">Convert</button>
         </form>
         <br><br>

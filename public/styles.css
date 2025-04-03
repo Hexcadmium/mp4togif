@@ -9,7 +9,44 @@
 body {
     font-family: Arial, sans-serif;
     background: #f0f0f0;
-    padding: 20px;
+}
+
+/* Modern Navigation Bar Styling */
+.nav-bar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #364758;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar .nav-links li {
+    margin-left: 20px;
+}
+
+.nav-bar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.1s ease;
+}
+
+.nav-bar .nav-links a:hover {
+    color: #1E90FF;
 }
 
 /* Center and constrain the container; use a fluid width */
@@ -22,6 +59,14 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+.input-style {
+    border: gray;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    border-style: dashed;
+    padding: 20px;
 }
 
 /* Heading style */
